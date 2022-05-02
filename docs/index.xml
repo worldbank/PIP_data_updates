@@ -10,7 +10,7 @@
     <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate>
     <item>
       <title>PIP Data Revisions to data from 15 February 2022</title>
-      <dc:creator>Christoph Lakner</dc:creator>
+      <dc:creator>PIP Technical Team</dc:creator>
       <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-05-02-pip-data-revisions</link>
       <description>This document tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform. In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a What’s New document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented below.</description>
       <category>Data revision</category>
@@ -19,10 +19,9 @@
     </item>
     <item>
       <title>Welcome to PIP Data Revisions</title>
-      <dc:creator>Nora Jones</dc:creator>
+      <dc:creator>PIP Technical Team</dc:creator>
       <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/welcome</link>
-      <description>Welcome to our new blog, PIP Data Revisions. We hope you enjoy 
-reading what we have to say!</description>
+      <description>This site documents all the revisions to the PIP data.</description>
       <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/welcome</guid>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
     </item>
