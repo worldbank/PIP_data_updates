@@ -1,7 +1,8 @@
 name: "PIP_data_revisions"
 title: "PIP Data Revisions"
 description: |
-  PIP Data Revisions
+  This side contains the revisions of PIP data
+base_url: https://pip-technical-team.github.io/PIP_data_revisions/
 output_dir: "docs"
 navbar:
   right:
@@ -10,3 +11,6 @@ navbar:
     - text: "About"
       href: about.html
 output: distill::distill_article
+collections:
+  posts:
+    share: [twitter, linkedin, pinterest, facebook]

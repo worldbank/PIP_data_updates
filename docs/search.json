@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
+      "title": "About",
       "description": "Some additional details about the blog",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-05-02T18:49:41+00:00"
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-02T17:38:43-04:00"
     },
     {
       "path": "index.html",
       "title": "PIP Data Revisions",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-05-02T18:49:42+00:00"
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-02T17:38:58-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

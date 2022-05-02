@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>PIP Data Revisions</title>
+    <link>https://pip-technical-team.github.io/PIP_data_revisions/</link>
+    <atom:link href="https://pip-technical-team.github.io/PIP_data_revisions/index.xml" rel="self" type="application/rss+xml"/>
+    <description>This side contains the revisions of PIP data
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PIP Data Revisions to data from 15 February 2022</title>
+      <dc:creator>Christoph Lakner</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-05-02-pip-data-revisions</link>
+      <description>This document tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform. In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a What’s New document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented below.</description>
+      <category>Data revision</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-05-02-pip-data-revisions</guid>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to PIP Data Revisions</title>
+      <dc:creator>Nora Jones</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/welcome</link>
+      <description>Welcome to our new blog, PIP Data Revisions. We hope you enjoy 
+reading what we have to say!</description>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/welcome</guid>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
