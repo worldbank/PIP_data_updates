@@ -4,7 +4,6 @@ description: |
   This site documents all the revisions to the PIP data.
 author:
   - name: PIP Technical Team
-date: 05-02-2022
 output:
   distill::distill_article:
     self_contained: false

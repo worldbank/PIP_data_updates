@@ -1,7 +1,24 @@
 [
   {
+    "path": "posts/welcome/",
+    "title": "Welcome to PIP Data Revisions",
+    "description": "This site documents all the revisions to the PIP data.",
+    "author": [
+      {
+        "name": "PIP Technical Team",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-03",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-03T16:35:10-04:00",
+    "input_file": "welcome.knit.md"
+  },
+  {
     "path": "posts/2022-05-02-pip-data-revisions/",
-    "title": "PIP Data Revisions to data from 15 February 2022",
+    "title": "PIP Data Revisions to data from 08 April 2022",
     "description": "This document tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform. In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a What’s New document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented below.",
     "author": [
       {
@@ -13,26 +30,29 @@
     "categories": [
       "Data revision"
     ],
-    "contents": "\r\n2 May, 2022\r\nUpdate to correct the following errors:\r\nSurvey-year estimates for\r\nFiji 2019\r\nThe consumption aggregate has been revised to include all relevant\r\nnon-food expenditures. In the previous version, non-food expenditures in\r\nfour categories (utilities, communication services, domestic services,\r\nand education) were not fully accounted for with all households, leading\r\nto an underestimation of total consumption. The upward revision in the\r\nconsumption aggregate reduces the poverty rates and leads to a small\r\nupward revision of the Gini index.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n02 May\r\n\r\n\r\n08 April\r\n\r\n\r\nGini Index\r\n\r\n\r\n30.71\r\n\r\n\r\n30.14\r\n\r\n\r\nPoverty headcount $1.90\r\n\r\n\r\n1.85\r\n\r\n\r\n2.60\r\n\r\n\r\nPoverty headcount $3.20\r\n\r\n\r\n14.50\r\n\r\n\r\n17.79\r\n\r\n\r\nPoverty headcount $5.50\r\n\r\n\r\n49.43\r\n\r\n\r\n55.54\r\n\r\n\r\nChanges to national accounts\r\ndata\r\nDue to an error in the data, the GDP per capita for Somalia in 2011\r\nhas been removed, which affects the reference-year series for Somalia.\r\nThe vintage of the WDI national accounts data used for India has been\r\nupdated to 15 February 2022, which is consistent with the vintage used\r\nfor all other countries. This affects the reference-year series for\r\nIndia slightly\r\nChanges to metadata\r\nThe comparability indicator for Nigeria has been corrected. It\r\nnow shows a break in comparability between the 2015/16 and 2018/19\r\nsurveys.\r\nThe comparability indicator for Maldives has been corrected. It\r\nnow shows a break in comparability between the 2016 and 2019\r\nsurveys\r\nChanges to country profiles\r\nFor Russia, the country profiles page now shows the consumption trend\r\n(previously, the income trend was shown). In the poverty calculator,\r\nboth trends are available.\r\n08 April, 2022\r\nThe semi-annual update to PIP presents new global poverty estimates\r\nfor 2018 and revises previously published estimates, as a result of\r\nnewly available survey data (a large number of new country-years have\r\nbeen added) and several changes to the underlying data. Further details\r\non the changes are available in this\r\ndocument.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThis update to corrects the following errors:\r\nSurvey-year estimates for\r\nFiji 2019\r\nThe consumption aggregate has been revised to include all relevant\r\nnon-food expenditures. In the previous version, non-food expenditures in\r\nfour categories (utilities, communication services, domestic services,\r\nand education) were not fully accounted for with all households, leading\r\nto an underestimation of total consumption. The upward revision in the\r\nconsumption aggregate reduces the poverty rates and leads to a small\r\nupward revision of the Gini index.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n02 May\r\n\r\n\r\n08 April\r\n\r\n\r\nGini Index\r\n\r\n\r\n30.71\r\n\r\n\r\n30.14\r\n\r\n\r\nPoverty headcount $1.90\r\n\r\n\r\n1.85\r\n\r\n\r\n2.60\r\n\r\n\r\nPoverty headcount $3.20\r\n\r\n\r\n14.50\r\n\r\n\r\n17.79\r\n\r\n\r\nPoverty headcount $5.50\r\n\r\n\r\n49.43\r\n\r\n\r\n55.54\r\n\r\n\r\nChanges to national accounts\r\ndata\r\nDue to an error in the data, the GDP per capita for Somalia in 2011\r\nhas been removed, which affects the reference-year series for Somalia.\r\nThe vintage of the WDI national accounts data used for India has been\r\nupdated to 15 February 2022, which is consistent with the vintage used\r\nfor all other countries. This affects the reference-year series for\r\nIndia slightly\r\nChanges to metadata\r\nThe comparability indicator for Nigeria has been corrected. It\r\nnow shows a break in comparability between the 2015/16 and 2018/19\r\nsurveys.\r\nThe comparability indicator for Maldives has been corrected. It\r\nnow shows a break in comparability between the 2016 and 2019\r\nsurveys\r\nChanges to country profiles\r\nFor Russia, the country profiles page now shows the consumption trend\r\n(previously, the income trend was shown). In the poverty calculator,\r\nboth trends are available.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-05-02T17:45:47-04:00",
-    "input_file": {}
+    "last_modified": "2022-05-03T16:44:56-04:00",
+    "input_file": "pip-data-revisions.knit.md"
   },
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to PIP Data Revisions",
-    "description": "This site documents all the revisions to the PIP data.",
+    "path": "posts/2022-05-03-pip-data-revisions/",
+    "title": "PIP Data Revisions to data from 15 February 2022",
+    "description": "The semi-annual update to PIP.",
     "author": [
       {
         "name": "PIP Technical Team",
         "url": {}
       }
     ],
-    "date": "2022-05-02",
-    "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
+    "date": "2022-04-08",
+    "categories": [
+      "Data revision",
+      "Semi-annual update"
+    ],
+    "contents": "\r\nThe semi-annual update to PIP presents new global poverty estimates\r\nfor 2018 and revises previously published estimates, as a result of\r\nnewly available survey data (a large number of new country-years have\r\nbeen added) and several changes to the underlying data. Further details\r\non the changes are available in [this document]((https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099422404082231105/idu02070690808ee7044720a1e6010de398e6a75).\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-05-02T17:44:56-04:00",
-    "input_file": {}
+    "last_modified": "2022-05-03T16:48:34-04:00",
+    "input_file": "pip-data-revisions.knit.md"
   }
 ]

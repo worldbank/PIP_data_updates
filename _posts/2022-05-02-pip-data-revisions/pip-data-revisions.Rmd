@@ -1,5 +1,5 @@
 ---
-title: "PIP Data Revisions to data from 15 February 2022"
+title: "PIP Data Revisions to data from 08 April 2022"
 description: |
   This document tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform. In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a What’s New document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented below. 
 categories:
@@ -19,9 +19,7 @@ library(knitr)
 library(kableExtra)
 ```
 
-# 2 May, 2022
-
-Update to correct the following errors:
+This update to corrects the following errors:
 
 ## Survey-year estimates for Fiji 2019
 
@@ -74,11 +72,3 @@ the reference-year series for India slightly
 For Russia, the country profiles page now shows the consumption trend
 (previously, the income trend was shown). In the poverty calculator, both trends
 are available.
-
-# 08 April, 2022
-
-The semi-annual update to PIP presents new global poverty estimates for 2018 and
-revises previously published estimates, as a result of newly available survey
-data (a large number of new country-years have been added) and several changes
-to the underlying data. Further details on the changes are available in [this
-document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099422404082231105/idu02070690808ee7044720a1e6010de398e6a75).
