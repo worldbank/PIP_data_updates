@@ -1,5 +1,18 @@
 ---
 title: "PIP Data Revisions"
 site: distill::distill_website
-listing: posts
+image: "logo.jpg"
+links:
+  - label: PIP
+    url: "https://pip.worldbank.org/"
+  - label: GitHub
+    url: "https://github.com/PIP-Technical-Team"
+  - label: Email
+    url: "mailto:pip@worldbank.org"
+base_url: https://pip-technical-team.github.io/PIP_data_revisions/
+preview: "logo.jpg"
+output:
+  postcards::jolla
 ---
+ 
+Welcome to the PIP data revisions page. Here you can find a comprehensive history of all the changes, updates, and corrections to the PIP data.

@@ -8,9 +8,19 @@ navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Revisions"
+      href: revisions.html
     - text: "About"
       href: about.html
+    - text: "PIP"
+      href: "https://pip.worldbank.org/"
 output: distill::distill_article
 collections:
   posts:
+    categories: true
     share: [twitter, linkedin, pinterest, facebook]
+rss:
+  full_content: true
+  categories:
+    - Data revision
+    - Semi-annual update
