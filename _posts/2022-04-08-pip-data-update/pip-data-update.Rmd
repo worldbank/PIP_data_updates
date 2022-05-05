@@ -4,6 +4,9 @@ description: |
   The semi-annual update to PIP presents new global poverty estimates for 2018 and revises previously published estimates, as a result of newly available survey data (a large number of new country-years have been added) and several changes to the underlying data. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099422404082231105/idu02070690808ee7044720a1e6010de398e6a75).
 author:
   - name: PIP Technical Team
+categories:
+  - Data revision
+  - Semi-annual update
 date: 2022-04-08
 output:
   distill::distill_article:

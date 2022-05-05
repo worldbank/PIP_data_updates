@@ -1,5 +1,5 @@
-name: "PIP_data_revisions"
-title: "PIP Data Revisions"
+name: "PIP_data_updates"
+title: "PIP Data Updates"
 description: |
   This side contains the revisions of PIP data
 base_url: https://pip-technical-team.github.io/PIP_data_revisions/
@@ -9,7 +9,7 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Data Updates"
-      href: revisions.html
+      href: dataupdates.html
     - text: "About"
       href: about.html
     - text: "PIP"
@@ -22,5 +22,5 @@ collections:
 rss:
   full_content: true
   categories:
-    - Data revision
+    - Data update
     - Semi-annual update

@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
+  <link rel="alternate" type="application/rss+xml" href="https://pip-technical-team.github.io/PIP_data_revisions/dataupdates.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -87,29 +88,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>PIP Data Updates: About</title>
+  <title>PIP Data Updates: Data Updates</title>
 
-  <meta property="description" itemprop="description" content="Details about PIP and PIP Data Updates"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="PIP Data Updates: About"/>
+  <meta property="og:title" content="PIP Data Updates: Data Updates"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Details about PIP and PIP Data Updates"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="PIP Data Updates"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="PIP Data Updates: About"/>
-  <meta property="twitter:description" content="Details about PIP and PIP Data Updates"/>
+  <meta property="twitter:title" content="PIP Data Updates: Data Updates"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About"]},{"type":"character","attributes":{},"value":["Details about PIP and PIP Data Updates"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","listing"]}},"value":[{"type":"character","attributes":{},"value":["Data Updates"]},{"type":"character","attributes":{},"value":["posts"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2052,12 +2050,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About","description":"Details about PIP and PIP Data Updates","authors":[]}
+{"title":"Data Updates","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2080,33 +2078,216 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
+<!--radix_placeholder_article_listing-->
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).on("load", function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
+<div class="posts-list">
+<h1 class="posts-list-caption" data-caption="Data Updates">Data Updates</h1>
+<a href="posts/2022-05-09-pip-data-update/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["Data revision"]}</script>
+<div class="metadata">
+<div class="publishedDate">May 9, 2022</div>
+<div class="dt-authors">
+<div class="dt-author">PIP Technical Team</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>PIP data update on May 9, 2022</h2>
+<div class="dt-tags">
+<div class="dt-tag">Data revision</div>
+</div>
+<p>This document tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform. In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a What’s New document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented below.</p>
+</div>
+</a>
+<a href="posts/2022-04-08-pip-data-update/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["Data revision","Semi-annual update"]}</script>
+<div class="metadata">
+<div class="publishedDate">April 8, 2022</div>
+<div class="dt-authors">
+<div class="dt-author">PIP Technical Team</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>PIP data update on April 08, 2022</h2>
+<div class="dt-tags">
+<div class="dt-tag">Data revision</div>
+<div class="dt-tag">Semi-annual update</div>
+</div>
+<p>The semi-annual update to PIP presents new global poverty estimates for 2018 and revises previously published estimates, as a result of newly available survey data (a large number of new country-years have been added) and several changes to the underlying data. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099422404082231105/idu02070690808ee7044720a1e6010de398e6a75).</p>
+</div>
+</a>
+</div>
+<div class="posts-sidebar">
+<div class="sidebar-section categories">
+<h3>Categories</h3>
+<ul>
+<li>
+<a href="#category:Articles">Articles</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:Data_revision">Data revision</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:Semi-annual_update">Semi-annual update</a>
+<span class="category-count">(1)</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>About</h1>
+<h1>Data Updates</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Details about PIP and PIP Data Updates</p></p>
+
 </div>
 
 
 <div class="d-article">
-<h2 id="pip">PIP</h2>
-<p>The Poverty and Inequality Platform (PIP) is an interactive
-computational tool that offers users quick access to the World Bank’s
-estimates of poverty, inequality, and shared prosperity. PIP provides a
-comprehensive view of global, regional, and country-level trends for
-more than 150 economies around the world. It also allows users to set
-their own poverty lines, and download the resulting estimates and
-graphs. Users can access the poverty and inequality estimates directly
-through the R (<a href="https://github.com/worldbank/pipr">pipR</a>) and
-Stata (<a href="https://github.com/worldbank/pip">pip.ado</a>) packages.
-Advanced users can also work with the anonymized underlying microdata
-and perform their own analysis (see “Statistics Online”). In addition,
-PIP provides access to key publications produced by the World Bank team
-on trends in and the measurement of poverty and inequality. PIP replaces
-PovcalNet and the <a
-href="https://povertydata.worldbank.org/poverty/home/">Poverty and
-Equity Data Portal</a>, which will be phased out by March 2022.</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

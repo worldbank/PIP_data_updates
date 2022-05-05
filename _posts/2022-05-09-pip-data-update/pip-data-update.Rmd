@@ -1,0 +1,84 @@
+---
+title: "PIP data update on May 9, 2022"
+description: |
+  This document tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform. In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a What’s New document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented below.
+categories:
+  - Data revision
+author:
+  - name: PIP Technical Team
+date: 2022-05-09
+output:
+  distill::distill_article:
+    toc: true
+    number_sections: true
+    toc_depth: 4
+    # code_folding: true
+    toc_float: true
+    collapsed: false
+    smooth_scroll: true
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(data.table)
+library(knitr)
+library(kableExtra)
+```
+
+## Survey-year estimates for Fiji 2019
+
+The consumption aggregate has been revised to include all relevant non-food
+expenditures. In the previous version, non-food expenditures in four categories
+(utilities, communication services, domestic services, and education) were not
+fully accounted for with all households, leading to an underestimation of total
+consumption. The upward revision in the consumption aggregate reduces the
+poverty rates and leads to a small upward revision of the Gini index.
+
+```{r table}
+dt <- tibble::tribble(
+  ~country, ~year,                  ~measure,   ~date, ~value,
+    "Fiji", 2019L, "Poverty headcount $1.90", "8-Apr",    2.6,
+    "Fiji", 2019L, "Poverty headcount $1.90", "2-May",   1.85,
+    "Fiji", 2019L, "Poverty headcount $3.20", "8-Apr",  17.79,
+    "Fiji", 2019L, "Poverty headcount $3.20", "2-May",   14.5,
+    "Fiji", 2019L, "Poverty headcount $5.50", "8-Apr",  55.54,
+    "Fiji", 2019L, "Poverty headcount $5.50", "2-May",  49.43,
+    "Fiji", 2019L,              "Gini Index", "8-Apr",  30.14,
+    "Fiji", 2019L,              "Gini Index", "2-May",  30.71
+  )
+setDT(dt)
+df <- dt[, c("measure", "date", "value")]
+df <- dcast(df, measure ~ date)
+```
+
+```{r}
+kable(df, col.names = c("", "09 May", "08 April")) 
+```
+
+## Changes to national accounts data
+
+Due to an error in the data, the GDP per capita for Somalia in 2011 has been
+removed, which affects the reference-year series for Somalia. The vintage of the
+WDI national accounts data used for India has been updated to 15 February 2022,
+which is consistent with the vintage used for all other countries. This affects
+the reference-year series for India slightly. The February version of WDI also
+includes national accounts data for the Syrian Arab Republic, which are now being used
+in the reference-year series. Previously, WDI did not include national accounts data
+for the Syrian Arab Republic, so alternative estimates were used (for further details
+on the earlier estimates, see [this document](https://documents1.worldbank.org/curated/en/099422404082231105/pdf/IDU02070690808ee7044720a1e6010de398e6a75.pdf))
+
+## Changes to metadata
+
+-   The comparability indicator for Nigeria has been corrected. It now shows a
+    break in comparability between the 2015/16 and 2018/19 surveys.
+
+-   The comparability indicator for Maldives has been corrected. It now shows a
+    break in comparability between the 2016 and 2019 surveys
+
+## Changes to country profiles
+
+For Russia, the country profiles page now shows the consumption trend
+(previously, the income trend was shown). In the poverty calculator, both trends
+are available.
+
