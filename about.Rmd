@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: |
-  Details about PIP and PIP data revisions
+  Details about PIP and PIP Data Updates
 ---
 
 ```{r setup, include=FALSE}
@@ -24,7 +24,3 @@ produced by the World Bank team on trends in and the measurement of poverty and
 inequality. PIP replaces PovcalNet and the [Poverty and Equity Data
 Portal](https://povertydata.worldbank.org/poverty/home/), which will be phased
 out by March 2022.
-
-## PIP data revisions
-
-This site is intended to document any change in the PIP data.

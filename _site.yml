@@ -8,7 +8,7 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Revisions"
+    - text: "Data Updates"
       href: revisions.html
     - text: "About"
       href: about.html

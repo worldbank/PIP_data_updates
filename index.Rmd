@@ -1,9 +1,9 @@
 ---
-title: "PIP Data Revisions"
+title: "PIP Data Updates"
 site: distill::distill_website
 image: "logo.jpg"
 links:
-  - label: Revisions
+  - label: Data Updates
     url: revisions.html
   - label: PIP
     url: "https://pip.worldbank.org/"
@@ -17,4 +17,6 @@ output:
   postcards::jolla
 ---
  
-Welcome to the PIP data revisions page. Here you can find a comprehensive history of all the changes, updates, and corrections to the PIP data. Go to [Revisions](revisions.html) at the top of this page.
+Welcome to the PIP data revisions page. Here you can find a comprehensive history of all the changes, updates, and corrections to the PIP data. Go to [Data Updates](revisions.html) at the top of this page.
+
+This site tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform (PIP). In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a [What’s New](https://pip.worldbank.org/publication) document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented in this site.
