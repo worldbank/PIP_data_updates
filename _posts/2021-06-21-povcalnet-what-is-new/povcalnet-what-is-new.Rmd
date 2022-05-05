@@ -49,7 +49,7 @@ In June 2021, minor revisions were made to four sets of survey estimates:
 The March 2021 global poverty update from the World Bank presents new poverty estimates for 2019, and revises the previously published global and regional estimates from 1981 to 2018.
 The update includes new surveys that have been received and processed, including new surveys using imputed consumption data, as well as several changes to the existing data.
 Some changes reflect improvements in the welfare aggregate based on new harmonization efforts and more available information.
-This document outlines the changes made to the underlying data by country, and explains the reasons why the changes have been made.
+[This document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/654971615585402030/march-2021-povcalnet-update-what-s-new) outlines the changes made to the underlying data by country, and explains the reasons why the changes have been made.
 
 # 2020/09/10
 
@@ -156,7 +156,7 @@ National accounts data for Venezuela has been updated to correspond fully to WDI
 
 -   PovcalNet data for several economies in East Asia and the Pacific have been updated to incorporate a spatial adjustment of the welfare aggregate.
     Adjusting for cost-of-living differences across regions within an economy arguably results in a more accurate representation of well-being.
-    Furthermore, this practice is in line with the spatial adjustments in other regions, such as Latin America, as detailed here.
+    Furthermore, this practice is in line with the spatial adjustments in other regions, such as Latin America, as detailed [here](https://link.springer.com/article/10.1007/s10888-016-9326-6).
     Economies that were updated with a spatially-deflated welfare aggregate include: Kiribati, Lao PDR, Papua New Guinea, Philippines, Timor-Leste, Tonga, Tuvalu, Vietnam, Vanuatu, and Samoa.
 
 -   The data for the "other high income" economies, as well as some of the income surveys in Europe and Central Asia, have a small number of observations with negative incomes, which we have dropped from the underlying database.
@@ -180,9 +180,9 @@ National accounts data for Venezuela has been updated to correspond fully to WDI
 
 ## Changes in purchasing power parities
 
-In the 2016 PovcalNet update, the poverty measures for all economies are based on consumption PPPs from the 2011 round of data collection by the International Comparison Program.
+In the 2016 PovcalNet update, the poverty measures for all economies are based on consumption PPPs from the 2011 round of data collection by the [International Comparison Program](https://www.worldbank.org/en/programs/icp).
 These PPP exchange rates include benchmark economies where actual price surveys were conducted, as well as regression-based PPP estimates where such surveys were not conducted.
-Details on the regression model for the PPP estimation can be found in World Bank (2015).
+Details on the regression model for the PPP estimation can be found in [World Bank (2015)](https://thedocs.worldbank.org/en/doc/711001503680105564-0050022017/original/ICP2011GlobalReport.pdf).
 In the 2015 update, a number of economies had still used the 2005 instead of 2011 PPPs.
 The following changes have now been made:
 
@@ -270,7 +270,7 @@ Therefore, users should use the same currency unit in the poverty line as in the
 
 -   China has a new integrated (rural and urban areas are no longer sampled separately) household survey starting in 2013.
     This new survey is not used in the October 2015 update.
-    For a more detailed explanation, see FAQ\#18.
+    For a more detailed explanation, please see the [2016 Poverty and Shared Prosperity Report.](https://openknowledge.worldbank.org/bitstream/handle/10986/25078/9781464809583.pdf?sequence=24&isAllowed=y)
 
 -   Country-level poverty estimates based on 2011 PPPs for Algeria, Egypt, Iraq, Syria and Yemen are not available in this round because of inexplicably large deviations between CPI and PPP inflations, outdated surveys or major ongoing revisions to surveys, and ongoing conflicts.
     While no economy-level poverty estimates are reported for these economies, poverty estimates for these economies are calculated for inclusion in the global aggregate.
@@ -288,7 +288,7 @@ Please see the [widget page](http://iresearch.worldbank.org/PovcalNet/widget.htm
 
 The entire set of household surveys for the Europe and Central Asia region has been updated by the ECA data team.
 This includes more than 246 surveys from almost all the 29 economies.
-For details of those survey data, see ECAPOV.
+For details of those survey data, see ECAPOV, a database of standardized household surveys in the Europe and Central Asia maintained by the World Bank.
 
 The entire set of household surveys for the Latin American and the Caribbean region has been updated.
 This includes more than 280 surveys from almost all the 25 economies.
