@@ -5,7 +5,7 @@ description: |
 author:
   - name: PIP Technical Team
 categories:
-  - Data revision
+  - Data update
   - Semi-annual update
 date: 2022-04-08
 output:
