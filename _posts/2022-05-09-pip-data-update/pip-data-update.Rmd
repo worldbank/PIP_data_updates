@@ -1,14 +1,21 @@
 ---
-title: "PIP Data Revisions to data from 08 April 2022"
+title: "PIP data update on May 9, 2022"
 description: |
-  This document tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform. In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a What’s New document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented below. 
+  This document tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform. In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a What’s New document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented below.
 categories:
   - Data revision
 author:
   - name: PIP Technical Team
-date: 2022-05-02
+date: 2022-05-09
 output:
   distill::distill_article:
+    toc: true
+    number_sections: true
+    toc_depth: 4
+    # code_folding: true
+    toc_float: true
+    collapsed: false
+    smooth_scroll: true
     self_contained: false
 ---
 
@@ -18,8 +25,6 @@ library(data.table)
 library(knitr)
 library(kableExtra)
 ```
-
-This update to corrects the following errors:
 
 ## Survey-year estimates for Fiji 2019
 
@@ -48,7 +53,7 @@ df <- dcast(df, measure ~ date)
 ```
 
 ```{r}
-kable(df, col.names = c("", "02 May", "08 April")) 
+kable(df, col.names = c("", "09 May", "08 April")) 
 ```
 
 ## Changes to national accounts data
@@ -57,7 +62,11 @@ Due to an error in the data, the GDP per capita for Somalia in 2011 has been
 removed, which affects the reference-year series for Somalia. The vintage of the
 WDI national accounts data used for India has been updated to 15 February 2022,
 which is consistent with the vintage used for all other countries. This affects
-the reference-year series for India slightly
+the reference-year series for India slightly. The February version of WDI also
+includes national accounts data for the Syrian Arab Republic, which are now being used
+in the reference-year series. Previously, WDI did not include national accounts data
+for the Syrian Arab Republic, so alternative estimates were used (for further details
+on the earlier estimates, see [this document](https://documents1.worldbank.org/curated/en/099422404082231105/pdf/IDU02070690808ee7044720a1e6010de398e6a75.pdf))
 
 ## Changes to metadata
 
@@ -72,3 +81,4 @@ the reference-year series for India slightly
 For Russia, the country profiles page now shows the consumption trend
 (previously, the income trend was shown). In the poverty calculator, both trends
 are available.
+
