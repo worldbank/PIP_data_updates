@@ -10,7 +10,7 @@
     <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate>
     <item>
       <title>PIP data update on May 9, 2022</title>
-      <dc:creator>PIP Technical Team</dc:creator>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
       <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-05-09-pip-data-update</link>
       <description>This document tracks the revisions that have been made to the data in the World Bank’s Poverty and Inequality Platform. In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a What’s New document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented below.</description>
       <category>Data update</category>
@@ -19,7 +19,7 @@
     </item>
     <item>
       <title>PIP data update on April 08, 2022</title>
-      <dc:creator>PIP Technical Team</dc:creator>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
       <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-04-08-pip-data-update</link>
       <description>The semi-annual update to PIP presents new global poverty estimates for 2018 and revises previously published estimates, as a result of newly available survey data (a large number of new country-years have been added) and several changes to the underlying data. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099422404082231105/idu02070690808ee7044720a1e6010de398e6a75).</description>
       <category>Data update</category>
@@ -29,7 +29,7 @@
     </item>
     <item>
       <title>PovcalNet What is New</title>
-      <dc:creator>PIP Technical Team</dc:creator>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
       <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2021-06-21-povcalnet-what-is-new</link>
       <description>
 
@@ -508,7 +508,7 @@ concentration.&lt;/p&gt;&lt;/li&gt;
 fixed in this round.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre class="r distill-force-highlighting-css"&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
-      <distill:md5>c7b042995f1bb7f11acc7a779c43f28a</distill:md5>
+      <distill:md5 xmlns:distill="https://distill.pub/journal/">c7b042995f1bb7f11acc7a779c43f28a</distill:md5>
       <category>Data update</category>
       <category>PovcalNet</category>
       <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2021-06-21-povcalnet-what-is-new</guid>
