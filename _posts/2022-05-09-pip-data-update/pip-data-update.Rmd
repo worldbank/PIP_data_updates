@@ -82,17 +82,6 @@ Republic, so alternative estimates were used (for further details on the earlier
 estimates, see [this
 document](https://documents1.worldbank.org/curated/en/099422404082231105/pdf/IDU02070690808ee7044720a1e6010de398e6a75.pdf)).
 
-## Lineup estimates for Guinea 1981-1985
-
-Previously when WEO had information on total GDP but no population estimates,
-and hence no information on GDP per capita, GDP per capita was inferred using
-population estimates from WDI. This is no longer done because the population
-series from WDI may be different from the population series WEO uses in
-neighboring years to compute GDP per capita, which could create unrealistic
-trends in growth in GDP per capita. As a consequence of this change, there is
-now no national accounts estimate for WSM in 1981 and estimates for Guinea
-before 1990 rely on the Maddison Project Database rather than WEO.
-
 ## Changes to metadata
 
 -   The comparability indicator for Nigeria has been corrected. It now shows a
