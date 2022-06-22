@@ -1,0 +1,38 @@
+---
+title: "PIP data update on June 22, 2022"
+description: |
+  Changes in national accounts data in Syrian Arab Republic.
+categories:
+  - Data update
+author:
+  - name: PIP Technical Team
+    url: pip.worldbank.org
+date: 2022-06-22
+output:
+  distill::distill_article:
+    toc: true
+    number_sections: true
+    toc_depth: 4
+    # code_folding: true
+    toc_float: true
+    collapsed: false
+    smooth_scroll: true
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## National accounts data in Syrian Arab Republic
+
+This update changed extrapolated estimates for Syrian Arab Republic. Prior to
+this update, data on Household Final Consumption Expenditure per capita for
+Syria had incorrectly been missing in the World Development Indicators,
+resulting in data on GDP per capita being used instead to extrapolate Syria's
+latest welfare vector (following PIP's methodology, see
+[here](https://worldbank.github.io/PIP-Methodology/lineupestimates.html#nationalaccounts)
+and [Prydz et al.
+2019](https://documents1.worldbank.org/curated/en/664751553100573765/pdf/135460-WP-PUBLIC-Disclosed-3-21-2019.pdf)).
+This has now been corrected such that data on Household Final Consumption
+Expenditure per capita is used to extrapolate Syria's latest welfare vector.
