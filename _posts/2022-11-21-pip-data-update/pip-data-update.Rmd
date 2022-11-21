@@ -1,0 +1,22 @@
+---
+title: "PIP data update on September 09, 2022"
+description: |
+  The semi-annual update to PIP presents new global poverty estimates for 2019 and revises previously published estimates, as a results of the adoption of 2017 PPPs and of new available data for India. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099700509122212929/idu05b43a261041c504a5f0bb3405d0ef310b9e1).
+author:
+  - name: PIP Technical Team
+categories:
+  - Data update
+  - Semi-annual update
+date: 2022-09-09
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+

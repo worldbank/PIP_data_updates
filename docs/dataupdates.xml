@@ -7,7 +7,17 @@
     <description>This side contains the revisions of PIP data
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 22 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PIP data update on September 09, 2022</title>
+      <dc:creator>PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-11-21-pip-data-update</link>
+      <description>The semi-annual update to PIP presents new global poverty estimates for 2019 and revises previously published estimates, as a results of the adoption of 2017 PPPs and of new available data for India. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099700509122212929/idu05b43a261041c504a5f0bb3405d0ef310b9e1).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-11-21-pip-data-update</guid>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>PIP data update on June 22, 2022</title>
       <dc:creator>PIP Technical Team</dc:creator>
