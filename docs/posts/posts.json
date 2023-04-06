@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2023-03-29-pip-data-update/",
+    "title": "PIP data update on March 29, 2023",
+    "description": "This semi-annual update to PIP involves several changes to the data underlying the global poverty estimates. In particular, some welfare aggregates have been revised, and the CPI, national accounts, and population input data have been updated. This document explains these changes in detail and the reasoning behind them. Moreover, 113 new country-years have been added, bringing the total number of surveys to more than 2,100. Global poverty estimates are reported up to 2019 and earlier years have been revised. Regional poverty estimates in 2020 and 2021 are reported only for regions with sufficient survey data coverage during the COVID-19 pandemic. Further details on the changes are available in [this document](http://documents.worldbank.org/curated/en/099923403272329672/IDU089370bcb048b9044fd0ab49037249b87aef6).",
+    "author": [
+      {
+        "name": "PIP Technical Team",
+        "url": {}
+      }
+    ],
+    "date": "2023-03-29",
+    "categories": [
+      "Data update",
+      "Semi-annual update"
+    ],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-04-06T18:05:13-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-11-21-pip-data-update/",
     "title": "PIP data update on September 09, 2022",
     "description": "The semi-annual update to PIP presents new global poverty estimates for 2019 and revises previously published estimates, as a results of the adoption of 2017 PPPs and of new available data for India. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099700509122212929/idu05b43a261041c504a5f0bb3405d0ef310b9e1).",

@@ -1,7 +1,7 @@
 ---
 title: "PIP Data Updates"
 site: distill::distill_website
-image: "logo.jpg"
+image: "WB-PIP-E-vertical-RGB-med.png"
 links:
   - label: Data Updates
     url: dataupdates.html
@@ -12,9 +12,9 @@ links:
   - label: Email
     url: "mailto:pip@worldbank.org"
 base_url: https://pip-technical-team.github.io/PIP_data_revisions/
-preview: "logo.jpg"
+# preview: "WB-PIP-E-vertical-RGB-low.png"
 output:
-  postcards::jolla
+  postcards::trestles
 ---
  
 Welcome to the PIP data revisions page. Here you can find a comprehensive history of all the changes, updates, and corrections to the PIP data. Go to [Data Updates](dataupdates.html) at the top of this page.
