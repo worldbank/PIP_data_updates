@@ -7,7 +7,17 @@
     <description>This side contains the revisions of PIP data
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PIP data update on March 29, 2023</title>
+      <dc:creator>PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2023-03-29-pip-data-update</link>
+      <description>This semi-annual update to PIP involves several changes to the data underlying the global poverty estimates. In particular, some welfare aggregates have been revised, and the CPI, national accounts, and population input data have been updated. This document explains these changes in detail and the reasoning behind them. Moreover, 113 new country-years have been added, bringing the total number of surveys to more than 2,100. Global poverty estimates are reported up to 2019 and earlier years have been revised. Regional poverty estimates in 2020 and 2021 are reported only for regions with sufficient survey data coverage during the COVID-19 pandemic. Further details on the changes are available in [this document](http://documents.worldbank.org/curated/en/099923403272329672/IDU089370bcb048b9044fd0ab49037249b87aef6).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2023-03-29-pip-data-update</guid>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>PIP data update on September 09, 2022</title>
       <dc:creator>PIP Technical Team</dc:creator>

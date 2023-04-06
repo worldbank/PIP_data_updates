@@ -5,6 +5,9 @@ description: |
 base_url: https://pip-technical-team.github.io/PIP_data_revisions/
 output_dir: "docs"
 navbar:
+  logo:
+    image: WB-PIP-E-vertical-RGB-med.png
+    href: https://pip.worldbank.org/
   right:
     - text: "Home"
       href: index.html

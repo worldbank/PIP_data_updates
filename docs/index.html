@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style type="text/css">body {font-family: 'Roboto Slab', serif;}</style>
+
     <title>PIP Data Updates</title>
 
     
@@ -627,7 +630,7 @@
             padding-top: 60px;
           }
           </style>
-          <script src="C:\Users\wb384996\R\win-library\4.1\rmarkdown\rmd\h\pandoc\header-attrs.js"></script>
+          <script src="C:\Users\wb384996\R\win-library\4.2\rmarkdown\rmd\h\pandoc\header-attrs.js"></script>
     
     
   </head>
@@ -637,6 +640,9 @@
           <header class="header header--fixed" role="banner">
           <nav class="distill-site-nav distill-site-header">
           <div class="nav-left">
+          <a class="logo" href="https://pip.worldbank.org/">
+          <img src="WB-PIP-E-vertical-RGB-low.png" alt="Logo"/>
+          </a>
           <a href="index.html" class="title">PIP Data Updates</a>
           <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
           </div>
@@ -653,117 +659,134 @@
           <!--radix_placeholder_site_before_body-->
           <!--/radix_placeholder_site_before_body-->
     
-    <div class="container min-vh-100">
-      <div class="row min-vh-100 justify-content-center align-items-center">
-        <div class="col-12 text-center">
-          <img src="logo.jpg" style="height:10rem" class="rounded-circle">
-          <div class="mt-3">
-            <h1>PIP Data Updates</h1>
-          </div>
-          <div class="row justify-content-center align-items-center">
-            <div class="col-6 mt-3 text-center d-none d-sm-block">
-              <p>Welcome to the PIP data revisions page. Here you can
-              find a comprehensive history of all the changes, updates,
-              and corrections to the PIP data. Go to <a
-              href="dataupdates.html">Data Updates</a> at the top of
-              this page.</p>
-              <p>This site tracks the revisions that have been made to
-              the data in the World Bank’s Poverty and Inequality
-              Platform (PIP). In a typical year, there are two major
-              updates (in March/April and September/October), which
-              bring in new survey data. These major updates are
-              documented using a <a
-              href="https://pip.worldbank.org/publication">What’s
-              New</a> document (published in the Global Poverty
-              Monitoring Technical Notes series). When necessary,
-              intermediate updates are made to correct errors as soon as
-              possible. Changes made as part of the intermediate updates
-              are documented in this site.</p>
+    <div class="container-fluid d-none d-lg-block d-xl-block">
+      <div class="d-flex row flex-row vh-100">
+        <div class="d-flex flex-column col-5 align-items-center text-center align-self-center">
+          <div class="mx-auto text-center">
+            <div class="p-3">
+              <img src="WB-PIP-E-vertical-RGB-med.png" style="height:15rem" class="rounded">
             </div>
-            <div class="col-11 mt-3 text-center d-block d-sm-none">
-              <p>Welcome to the PIP data revisions page. Here you can
-              find a comprehensive history of all the changes, updates,
-              and corrections to the PIP data. Go to <a
-              href="dataupdates.html">Data Updates</a> at the top of
-              this page.</p>
-              <p>This site tracks the revisions that have been made to
-              the data in the World Bank’s Poverty and Inequality
-              Platform (PIP). In a typical year, there are two major
-              updates (in March/April and September/October), which
-              bring in new survey data. These major updates are
-              documented using a <a
-              href="https://pip.worldbank.org/publication">What’s
-              New</a> document (published in the Global Poverty
-              Monitoring Technical Notes series). When necessary,
-              intermediate updates are made to correct errors as soon as
-              possible. Changes made as part of the intermediate updates
-              are documented in this site.</p>
+            <div class="p-2">
+              <h1>PIP Data Updates</h1>
+            </div>
+            <hr style="width:60%;"/>
+            <div class="p-2">
+              <div id="icon-list">
+                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                    <a href=dataupdates.html>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        Data Updates
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://pip.worldbank.org/>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        PIP
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://github.com/PIP-Technical-Team>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        GitHub
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=mailto:pip@worldbank.org>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        Email
+                      </button>
+                    </a>
+                  </li>
+                                  </ul>
+              </div>
             </div>
           </div>
+        </div>
+        <div class="d-flex flex-column vh-100 border-left"></div>
+        <div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;">
+          <div class="my-5" id="content">
+            <p>Welcome to the PIP data revisions page. Here you can find
+            a comprehensive history of all the changes, updates, and
+            corrections to the PIP data. Go to <a
+            href="dataupdates.html">Data Updates</a> at the top of this
+            page.</p>
+            <p>This site tracks the revisions that have been made to the
+            data in the World Bank’s Poverty and Inequality Platform
+            (PIP). In a typical year, there are two major updates (in
+            March/April and September/October), which bring in new
+            survey data. These major updates are documented using a <a
+            href="https://pip.worldbank.org/publication">What’s New</a>
+            document (published in the Global Poverty Monitoring
+            Technical Notes series). When necessary, intermediate
+            updates are made to correct errors as soon as possible.
+            Changes made as part of the intermediate updates are
+            documented in this site.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-          <hr style="width:60%;"/>
+    <div class="container-flex min-vh-100 d-block d-lg-none d-xl-none">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-col">
+          <div class="mx-auto">
+            <div class="p-3 mt-3 text-center">
+              <img src="WB-PIP-E-vertical-RGB-med.png" style="height:15rem" class="rounded">
+            </div>
+            <div class="p-2 text-center">
+              <h1>PIP Data Updates</h1>
+            </div>
+            <hr style="width:60%;"/>
 
-          <div class="row justify-content-center align-items-center">
-            <div class="col-8 text-center d-none d-sm-block">
-              <ul class="list-inline">
-                                <li class="list-inline-item">
-                  <a href=dataupdates.html>
-                    <button type="button" class="btn btn-outline-dark mb-2">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 p-1 text-center">
+                <div class="list-group">
+                                    <a href=dataupdates.html>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
                       Data Updates
                     </button>
                   </a>
-                </li>
-                                <li class="list-inline-item">
-                  <a href=https://pip.worldbank.org/>
-                    <button type="button" class="btn btn-outline-dark mb-2">
+                                    <a href=https://pip.worldbank.org/>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
                       PIP
                     </button>
                   </a>
-                </li>
-                                <li class="list-inline-item">
-                  <a href=https://github.com/PIP-Technical-Team>
-                    <button type="button" class="btn btn-outline-dark mb-2">
+                                    <a href=https://github.com/PIP-Technical-Team>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
                       GitHub
                     </button>
                   </a>
-                </li>
-                                <li class="list-inline-item">
-                  <a href=mailto:pip@worldbank.org>
-                    <button type="button" class="btn btn-outline-dark mb-2">
+                                    <a href=mailto:pip@worldbank.org>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
                       Email
                     </button>
                   </a>
-                </li>
-                              </ul>
+                                  </div>
+              </div>
             </div>
-          </div>
-
-          <div class="row justify-content-center align-items-center">
-            <div class="col-8 m-1 text-center d-block d-sm-none">
-              <div class="list-group">
-                                <a href=dataupdates.html>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                    Data Updates
-                  </button>
-                </a>
-                                <a href=https://pip.worldbank.org/>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                    PIP
-                  </button>
-                </a>
-                                <a href=https://github.com/PIP-Technical-Team>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                    GitHub
-                  </button>
-                </a>
-                                <a href=mailto:pip@worldbank.org>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                    Email
-                  </button>
-                </a>
-                              </div>
+            <div class="p pt-4 px-5">
+              <p>Welcome to the PIP data revisions page. Here you can
+              find a comprehensive history of all the changes, updates,
+              and corrections to the PIP data. Go to <a
+              href="dataupdates.html">Data Updates</a> at the top of
+              this page.</p>
+              <p>This site tracks the revisions that have been made to
+              the data in the World Bank’s Poverty and Inequality
+              Platform (PIP). In a typical year, there are two major
+              updates (in March/April and September/October), which
+              bring in new survey data. These major updates are
+              documented using a <a
+              href="https://pip.worldbank.org/publication">What’s
+              New</a> document (published in the Global Poverty
+              Monitoring Technical Notes series). When necessary,
+              intermediate updates are made to correct errors as soon as
+              possible. Changes made as part of the intermediate updates
+              are documented in this site.</p>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -774,10 +797,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-          <!--radix_placeholder_site_after_body-->
-          <!--/radix_placeholder_site_after_body-->
-          <!--radix_placeholder_navigation_after_body-->
-          <!--/radix_placeholder_navigation_after_body-->
-    
+      <!--radix_placeholder_site_after_body-->
+      <!--/radix_placeholder_site_after_body-->
+      <!--radix_placeholder_navigation_after_body-->
+      <!--/radix_placeholder_navigation_after_body-->
+  
   </body>
 </html>
