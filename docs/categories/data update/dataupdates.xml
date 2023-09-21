@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:distill="https://distill.pub/journal/" version="2.0">
+  <channel>
+    <title>PIP Data Updates</title>
+    <link>https://pip-technical-team.github.io/PIP_data_revisions/</link>
+    <atom:link href="https://pip-technical-team.github.io/PIP_data_revisions/dataupdates.xml" rel="self" type="application/rss+xml"/>
+    <description>This side contains the revisions of PIP data
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 19 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PIP data update on Sep 19, 2023</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2023-09-19-pip-data-update</link>
+      <description>This global poverty update revises the previously published global and regional estimates from 1981 to 2021. A total of 63 new surveys were added to the PIP database, bringing the total number of surveys to more than 2,200. These new surveys are largely historical data for advanced economies. In addition, two surveys were added for 2019 and 13 more surveys were added for more recent years. The new survey data covers the period of the COVID-19 pandemic, making it possible to report regional poverty estimates for 2020 for all regions except Sub-Saharan Africa, and the Middle East and North Africa. Further details on the changes are available in [this document](https://documents1.worldbank.org/en/publication/documents-reports/documentdetail/099624209142386941).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2023-09-19-pip-data-update</guid>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PIP data update on March 29, 2023</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2023-03-29-pip-data-update</link>
+      <description>This semi-annual update to PIP involves several changes to the data underlying the global poverty estimates. In particular, some welfare aggregates have been revised, and the CPI, national accounts, and population input data have been updated. This document explains these changes in detail and the reasoning behind them. Moreover, 113 new country-years have been added, bringing the total number of surveys to more than 2,100. Global poverty estimates are reported up to 2019 and earlier years have been revised. Regional poverty estimates in 2020 and 2021 are reported only for regions with sufficient survey data coverage during the COVID-19 pandemic. Further details on the changes are available in [this document](http://documents.worldbank.org/curated/en/099923403272329672/IDU089370bcb048b9044fd0ab49037249b87aef6).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2023-03-29-pip-data-update</guid>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PIP data update on September 09, 2022</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-11-21-pip-data-update</link>
+      <description>The semi-annual update to PIP presents new global poverty estimates for 2019 and revises previously published estimates, as a results of the adoption of 2017 PPPs and of new available data for India. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099700509122212929/idu05b43a261041c504a5f0bb3405d0ef310b9e1).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-11-21-pip-data-update</guid>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PIP data update on June 22, 2022</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-06-22-pip-data-update</link>
+      <description>Changes in national accounts data in Syrian Arab Republic.</description>
+      <category>Data update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-06-22-pip-data-update</guid>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PIP data update on May 9, 2022</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-05-09-pip-data-update</link>
+      <description>This intermediate PIP update corrects several errors as documented in this post.</description>
+      <category>Data update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-05-09-pip-data-update</guid>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PIP data update on April 08, 2022</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-04-08-pip-data-update</link>
+      <description>The semi-annual update to PIP presents new global poverty estimates for 2018 and revises previously published estimates, as a result of newly available survey data (a large number of new country-years have been added) and several changes to the underlying data. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099422404082231105/idu02070690808ee7044720a1e6010de398e6a75).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2022-04-08-pip-data-update</guid>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PovcalNet What is New</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2021-06-21-povcalnet-what-is-new</link>
+      <description>This page is a replica of the old "What is New" of the now deprecated PovcalNet system. The intention of this page it to keep institutional memory publicly available.</description>
+      <category>Data update</category>
+      <category>PovcalNet</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2021-06-21-povcalnet-what-is-new</guid>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
