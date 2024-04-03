@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2024-03-26-pip-data-update/",
+    "title": "PIP data update on Mar 26, 2024",
+    "description": "The March 2024 update to the Poverty and Inequality Platform (PIP) involves several changes to the data underlying the global poverty estimates. In particular, some welfare aggregates have been revised, and the CPI, national accounts, and population input data have been updated. Moreover, 101 new country-years have been added, bringing the total number of surveys to more than 2,300. Depending on the availability of recent survey data, global and regional poverty estimates are reported up to 2022. This is the first time PIP is reporting global poverty estimates post-2019, covering the period of the COVID-19 pandemic. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099839303252425642/idu1d671646616eef14bb31a2ba103042c40ae3c).",
+    "author": [
+      {
+        "name": "PIP Technical Team",
+        "url": {}
+      }
+    ],
+    "date": "2024-03-26",
+    "categories": [
+      "Data update",
+      "Semi-annual update"
+    ],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-04-03T10:25:15-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2023-09-19-pip-data-update/",
     "title": "PIP data update on Sep 19, 2023",
     "description": "This global poverty update revises the previously published global and regional estimates from 1981 to 2021. A total of 63 new surveys were added to the PIP database, bringing the total number of surveys to more than 2,200. These new surveys are largely historical data for advanced economies. In addition, two surveys were added for 2019 and 13 more surveys were added for more recent years. The new survey data covers the period of the COVID-19 pandemic, making it possible to report regional poverty estimates for 2020 for all regions except Sub-Saharan Africa, and the Middle East and North Africa. Further details on the changes are available in [this document](https://documents1.worldbank.org/en/publication/documents-reports/documentdetail/099624209142386941).",
@@ -16,7 +36,7 @@
     ],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-09-18T17:04:41-04:00",
+    "last_modified": "2024-04-03T10:12:48-04:00",
     "input_file": {}
   },
   {
