@@ -7,7 +7,17 @@
     <description>This side contains the revisions of PIP data
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 19 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PIP data update on Mar 26, 2024</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2024-03-26-pip-data-update</link>
+      <description>The March 2024 update to the Poverty and Inequality Platform (PIP) involves several changes to the data underlying the global poverty estimates. In particular, some welfare aggregates have been revised, and the CPI, national accounts, and population input data have been updated. Moreover, 101 new country-years have been added, bringing the total number of surveys to more than 2,300. Depending on the availability of recent survey data, global and regional poverty estimates are reported up to 2022. This is the first time PIP is reporting global poverty estimates post-2019, covering the period of the COVID-19 pandemic. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099839303252425642/idu1d671646616eef14bb31a2ba103042c40ae3c).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2024-03-26-pip-data-update</guid>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>PIP data update on Sep 19, 2023</title>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
