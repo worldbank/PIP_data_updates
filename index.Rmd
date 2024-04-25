@@ -1,12 +1,14 @@
 ---
-title: "PIP Data Updates"
+#title: PIP Data Updates
 site: distill::distill_website
 image: "WB-PIP-E-vertical-RGB-med.png"
 links:
-  - label: Data Updates
-    url: dataupdates.html
   - label: PIP
     url: "https://pip.worldbank.org/"
+  - label: PIP Updates
+    url: dataupdates.html
+  - label: Country Data Revisions
+    url: "https://datanalytics.worldbank.org/pip_country_data_revisions/"
   - label: GitHub
     url: "https://github.com/PIP-Technical-Team"
   - label: Email
@@ -16,9 +18,9 @@ base_url: https://pip-technical-team.github.io/PIP_data_revisions/
 output:
   postcards::trestles
 ---
- 
-Welcome to the PIP data revisions page. This site tracks the revisions that have been made to the data in the World Bank’s [Poverty and Inequality Platform (PIP)](https://pip.worldbank.org/home). 
+Welcome to the PIP data updates page. This site tracks the revisions that have been made to the data in the World Bank’s [Poverty and Inequality Platform (PIP)](https://pip.worldbank.org/home). 
 
-In a typical year, there are two major updates (in March/April and September/October), which bring in new survey data. These major updates are documented using a [What’s New](https://pip.worldbank.org/publication) document (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible. Changes made as part of the intermediate updates are documented in this site.
+The [PIP Updates](dataupdates.html) option at the top menu, provides record of all the **overall changes**, updates, and corrections to the PIP data. In a typical year, there are two major updates (March/April and September/October), which bring in new survey data. These updates are documented in [What’s New](https://pip.worldbank.org/publication) documents (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible, which are also documented in this site.
 
-Go to [Data Updates](dataupdates.html) at the top of this page to see a comprehensive record of all the changes, updates, and corrections to the PIP data.
+The [Country Data Revisions](https://datanalytics.worldbank.org/pip_country_data_revisionsl) tool to tracks all the **specific changes** that country-year has undergone over time. This tool provides quick access to a summary of all the changes for a particular data point.
+

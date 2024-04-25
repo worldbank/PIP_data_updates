@@ -11,12 +11,14 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Data Updates"
-      href: dataupdates.html
-    - text: "About"
+    - text: "About PIP"
       href: about.html
-    - text: "PIP"
-      href: "https://pip.worldbank.org/"
+    - text: "PIP Updates"
+      href: dataupdates.html
+    - text: "Country Data Revisions"
+      href: "https://datanalytics.worldbank.org/pip_country_data_revisions/"
+    - text: "What's News"
+      href: "https://pip.worldbank.org/publication"
 output: distill::distill_article
 collections:
   posts:

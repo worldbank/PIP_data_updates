@@ -1,13 +1,10 @@
 ---
-title: "About"
-description: |
-  Details about PIP and PIP Data Updates
+title: "About PIP"
+description: 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+The [Poverty and Inequality Platform (PIP)](https://pip.worldbank.org/) is an interactive computational tool that offers users quick access to the World Bank's estimates of poverty, inequality, and shared prosperity. PIP provides a comprehensive view of global, regional, and country-level trends for more than 160 economies around the world.
 
-## PIP
+PIP also allows users to set their own poverty lines, and download the resulting estimates and graphs. Users can access the poverty and inequality estimates directly through the R ([pipR](https://github.com/worldbank/pipr)) and Stata ([pip.ado](https://github.com/worldbank/pip)) packages. Advanced users can also work with the anonymized underlying microdata and perform their own analysis (see "([Statistics Online](https://pip.worldbank.org/sol/sol-landing)"). 
 
-The Poverty and Inequality Platform (PIP) is an interactive computational tool that offers users quick access to the World Bank's estimates of poverty, inequality, and shared prosperity. PIP provides a comprehensive view of global, regional, and country-level trends for more than 160 economies around the world. It also allows users to set their own poverty lines, and download the resulting estimates and graphs. Users can access the poverty and inequality estimates directly through the R ([pipR](https://github.com/worldbank/pipr)) and Stata ([pip.ado](https://github.com/worldbank/pip)) packages. Advanced users can also work with the anonymized underlying microdata and perform their own analysis (see "([Statistics Online](https://pip.worldbank.org/sol/sol-landing)"). In addition, PIP provides access to key ([publications](https://pip.worldbank.org/publication)) produced by the World Bank team on trends in and the measurement of poverty and inequality. PIP replaces PovcalNet and the [Poverty and Equity Data  Portal](https://povertydata.worldbank.org/poverty/home/), which were be phased out by March 2022.
+Finally, PIP provides access to a comprehensive list of key ([publications](https://pip.worldbank.org/publication)) produced by the World Bank team on trends in and the measurement of poverty and inequality. PIP replaces PovcalNet and the [Poverty and Equity Data  Portal](https://povertydata.worldbank.org/poverty/home/), which were be phased out by March 2022.
