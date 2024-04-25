@@ -1,7 +1,7 @@
 ---
 title: "PIP data update on Sep 19, 2023"
 description: |
-  This global poverty update revises the previously published global and regional estimates from 1981 to 2021. A total of 63 new surveys were added to the PIP database, bringing the total number of surveys to more than 2,200. These new surveys are largely historical data for advanced economies. In addition, two surveys were added for 2019 and 13 more surveys were added for more recent years. The new survey data covers the period of the COVID-19 pandemic, making it possible to report regional poverty estimates for 2020 for all regions except Sub-Saharan Africa, and the Middle East and North Africa. Further details on the changes are available in [this document](https://documents1.worldbank.org/en/publication/documents-reports/documentdetail/099624209142386941).
+  This update revises the previously published global and regional estimates from 1981 to 2021. 63 new surveys were added (largely historical data for advanced economies), bringing the total surveys in PIP to more than 2,200. Furthermore, 2 surveys were added for 2019 and 13 for more recent years. The new survey data covers the COVID-19 pandemic period, reporting 2020 regional poverty for all regions except Sub-Saharan Africa, and the Middle East and North Africa. Further details on the changes are available in [this document](https://documents1.worldbank.org/en/publication/documents-reports/documentdetail/099624209142386941).
 author:
   - name: PIP Technical Team
 categories:

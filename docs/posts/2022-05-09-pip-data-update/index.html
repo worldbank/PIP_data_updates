@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -127,7 +128,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["pip-data-update_files/anchor-4.2.2/anchor.min.js","pip-data-update_files/bowser-1.9.3/bowser.min.js","pip-data-update_files/distill-2.2.21/template.v2.js","pip-data-update_files/header-attrs-2.14/header-attrs.js","pip-data-update_files/jquery-3.6.0/jquery-3.6.0.js","pip-data-update_files/jquery-3.6.0/jquery-3.6.0.min.js","pip-data-update_files/jquery-3.6.0/jquery-3.6.0.min.map","pip-data-update_files/popper-2.6.0/popper.min.js","pip-data-update_files/tippy-6.2.7/tippy-bundle.umd.min.js","pip-data-update_files/tippy-6.2.7/tippy-light-border.css","pip-data-update_files/tippy-6.2.7/tippy.css","pip-data-update_files/tippy-6.2.7/tippy.umd.min.js","pip-data-update_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["pip-data-update_files/anchor-4.2.2/anchor.min.js","pip-data-update_files/bowser-1.9.3/bowser.min.js","pip-data-update_files/distill-2.2.21/template.v2.js","pip-data-update_files/header-attrs-2.14/header-attrs.js","pip-data-update_files/header-attrs-2.26/header-attrs.js","pip-data-update_files/jquery-3.6.0/jquery-3.6.0.js","pip-data-update_files/jquery-3.6.0/jquery-3.6.0.min.js","pip-data-update_files/jquery-3.6.0/jquery-3.6.0.min.map","pip-data-update_files/popper-2.6.0/popper.min.js","pip-data-update_files/tippy-6.2.7/tippy-bundle.umd.min.js","pip-data-update_files/tippy-6.2.7/tippy-light-border.css","pip-data-update_files/tippy-6.2.7/tippy.css","pip-data-update_files/tippy-6.2.7/tippy.umd.min.js","pip-data-update_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2115,7 +2116,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="../../site_libs/header-attrs-2.26/header-attrs.js"></script>
   <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -2152,9 +2153,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 <div class="nav-right">
 <a href="../../index.html">Home</a>
-<a href="../../dataupdates.html">Data Updates</a>
-<a href="../../about.html">About</a>
-<a href="https://pip.worldbank.org/">PIP</a>
+<a href="../../about.html">About PIP</a>
+<a href="../../dataupdates.html">PIP Updates</a>
+<a href="https://datanalytics.worldbank.org/pip_country_data_revisions/">Country Data Revisions</a>
+<a href="https://pip.worldbank.org/publication">What's News</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2165,13 +2167,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class="d-title">
 <h1>PIP data update on May 9, 2022</h1>
+
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
   <a href="../../dataupdates.html#category:Data_update" class="dt-tag">Data update</a>
 </div>
 <!--/radix_placeholder_categories-->
-<p><p>This intermediate PIP update corrects several errors as documented
-in this post.</p></p>
+<p><p>This intermediate PIP update corrects several errors as documented in this post.</p></p>
 </div>
 
 <div class="d-byline">
@@ -2185,131 +2187,89 @@ in this post.</p></p>
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#survey-year-estimates-for-fiji-2019">Survey-year estimates
-for Fiji 2019</a></li>
-<li><a href="#changes-to-national-accounts-data">Changes to national
-accounts data</a></li>
-<li><a href="#changes-to-metadata">Changes to metadata</a></li>
-<li><a href="#changes-to-country-profiles">Changes to country
-profiles</a></li>
+<li><a href="#survey-year-estimates-for-fiji-2019" id="toc-survey-year-estimates-for-fiji-2019">Survey-year estimates for Fiji 2019</a></li>
+<li><a href="#changes-to-national-accounts-data" id="toc-changes-to-national-accounts-data">Changes to national accounts data</a></li>
+<li><a href="#changes-to-metadata" id="toc-changes-to-metadata">Changes to metadata</a></li>
+<li><a href="#changes-to-country-profiles" id="toc-changes-to-country-profiles">Changes to country profiles</a></li>
 </ul>
 </nav>
 </div>
-<h2 id="survey-year-estimates-for-fiji-2019">Survey-year estimates for
-Fiji 2019</h2>
-<p>The consumption aggregate has been revised to include all relevant
-non-food expenditures. In the previous version, non-food expenditures in
-four categories (utilities, communication services, domestic services,
-and education) were not fully accounted for with all households, leading
-to an underestimation of total consumption. The upward revision in the
-consumption aggregate reduces the poverty rates and leads to a small
-upward revision of the Gini index.</p>
+<h2 id="survey-year-estimates-for-fiji-2019">Survey-year estimates for Fiji 2019</h2>
+<p>The consumption aggregate has been revised to include all relevant non-food
+expenditures. In the previous version, non-food expenditures in four categories
+(utilities, communication services, domestic services, and education) were not
+fully accounted for with all households, leading to an underestimation of total
+consumption. The upward revision in the consumption aggregate reduces the
+poverty rates and leads to a small upward revision of the Gini index.</p>
 <div class="layout-chunk" data-layout="l-body">
 
 </div>
 <div class="layout-chunk" data-layout="l-body">
 <table>
 <thead>
-<tr>
-<th style="text-align:left;">
-</th>
-<th style="text-align:right;">
-09 May
-</th>
-<th style="text-align:right;">
-08 April
-</th>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">09 May</th>
+<th style="text-align: right;">08 April</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align:left;">
-Gini Index
-</td>
-<td style="text-align:right;">
-30.71
-</td>
-<td style="text-align:right;">
-30.14
-</td>
+<tr class="odd">
+<td style="text-align: left;">Gini Index</td>
+<td style="text-align: right;">30.71</td>
+<td style="text-align: right;">30.14</td>
 </tr>
-<tr>
-<td style="text-align:left;">
-Poverty headcount $1.90
-</td>
-<td style="text-align:right;">
-1.85
-</td>
-<td style="text-align:right;">
-2.60
-</td>
+<tr class="even">
+<td style="text-align: left;">Poverty headcount $1.90</td>
+<td style="text-align: right;">1.85</td>
+<td style="text-align: right;">2.60</td>
 </tr>
-<tr>
-<td style="text-align:left;">
-Poverty headcount $3.20
-</td>
-<td style="text-align:right;">
-14.50
-</td>
-<td style="text-align:right;">
-17.79
-</td>
+<tr class="odd">
+<td style="text-align: left;">Poverty headcount $3.20</td>
+<td style="text-align: right;">14.50</td>
+<td style="text-align: right;">17.79</td>
 </tr>
-<tr>
-<td style="text-align:left;">
-Poverty headcount $5.50
-</td>
-<td style="text-align:right;">
-49.43
-</td>
-<td style="text-align:right;">
-55.54
-</td>
+<tr class="even">
+<td style="text-align: left;">Poverty headcount $5.50</td>
+<td style="text-align: right;">49.43</td>
+<td style="text-align: right;">55.54</td>
 </tr>
 </tbody>
 </table>
 </div>
-<h2 id="changes-to-national-accounts-data">Changes to national accounts
-data</h2>
-<p>Four changes have been made to the national accounts data, which
-affects the reference-year series for several countries. First, due to
-an error in the data, the GDP per capita value for Somalia in 2011 has
-been removed.</p>
-<p>Second, previously when WEO had information on total GDP but no
-population estimates, and hence no information on GDP per capita, GDP
-per capita was inferred using population estimates from WDI. This is no
-longer done because the population series from WDI may be different from
-the population series WEO uses in adjacent years to compute GDP per
-capita, which could create unrealistic trends in growth in GDP per
-capita. As a consequence of this change, there is now no national
-accounts estimate for Samoa in 1981 and estimates for Guinea before 1990
-rely on the Maddison Project Database rather than WEO.</p>
-<p>Third, the vintage of the WDI national accounts data used for India
-has been updated to 15 February 2022, which is consistent with the
-vintage used for all other countries. This affects the reference-year
-series for India slightly.</p>
-<p>Fourth, the February version of WDI also includes national accounts
-data for the Syrian Arab Republic, which are now being used in the
-reference-year series. Previously, WDI did not include national accounts
-data for the Syrian Arab Republic, so alternative estimates were used
-(for further details on the earlier estimates, see <a
-href="https://documents1.worldbank.org/curated/en/099422404082231105/pdf/IDU02070690808ee7044720a1e6010de398e6a75.pdf">this
+<h2 id="changes-to-national-accounts-data">Changes to national accounts data</h2>
+<p>Four changes have been made to the national accounts data, which affects the
+reference-year series for several countries. First, due to an error in the data,
+the GDP per capita value for Somalia in 2011 has been removed.</p>
+<p>Second, previously when WEO had information on total GDP but no population
+estimates, and hence no information on GDP per capita, GDP per capita was
+inferred using population estimates from WDI. This is no longer done because the
+population series from WDI may be different from the population series WEO uses
+in adjacent years to compute GDP per capita, which could create unrealistic
+trends in growth in GDP per capita. As a consequence of this change, there is
+now no national accounts estimate for Samoa in 1981 and estimates for Guinea
+before 1990 rely on the Maddison Project Database rather than WEO.</p>
+<p>Third, the vintage of the WDI national accounts data used for India has been
+updated to 15 February 2022, which is consistent with the vintage used for all
+other countries. This affects the reference-year series for India slightly.</p>
+<p>Fourth, the February version of WDI also includes national accounts data for the
+Syrian Arab Republic, which are now being used in the reference-year series.
+Previously, WDI did not include national accounts data for the Syrian Arab
+Republic, so alternative estimates were used (for further details on the earlier
+estimates, see <a href="https://documents1.worldbank.org/curated/en/099422404082231105/pdf/IDU02070690808ee7044720a1e6010de398e6a75.pdf">this
 document</a>).</p>
 <h2 id="changes-to-metadata">Changes to metadata</h2>
 <ul>
-<li><p>The comparability indicator for Nigeria has been corrected. It
-now shows a break in comparability between the 2015/16 and 2018/19
-surveys.</p></li>
-<li><p>The comparability indicator for Maldives has been corrected. It
-now shows a break in comparability between the 2016 and 2019
-surveys</p></li>
+<li><p>The comparability indicator for Nigeria has been corrected. It now shows a
+break in comparability between the 2015/16 and 2018/19 surveys.</p></li>
+<li><p>The comparability indicator for Maldives has been corrected. It now shows a
+break in comparability between the 2016 and 2019 surveys</p></li>
 </ul>
 <h2 id="changes-to-country-profiles">Changes to country profiles</h2>
 <p>For Russia, the country profiles page now shows the consumption trend
-(previously, the income trend was shown). In the poverty calculator,
-both trends are available.</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+(previously, the income trend was shown). In the poverty calculator, both trends
+are available.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
   <p class="social_footer">
