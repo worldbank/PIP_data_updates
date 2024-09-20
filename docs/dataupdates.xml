@@ -7,7 +7,17 @@
     <description>This side contains the revisions of PIP data
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 26 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PIP data update on Sep 20, 2024</title>
+      <dc:creator>PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2024-09-20-pip-data-update</link>
+      <description>This update involves several changes to the data underlying global poverty estimates. The database now includes 16 new country-years, bringing the total number of surveys to nearly 2,400. This update incorporates new methodologies for measuring global poverty and introduces new indicators of shared prosperity: the Prosperity Gap and the number of economies with high income inequality. It also incorporates two new analytical dashboards: growth incidence curves and poverty decompositions. Depending on the availability of recent survey data, global and regional poverty estimates are reported up to 2022. For the first time, PIP also includes country-level, regional, and global poverty nowcast estimates up to 2024. Further details on the changes are available in [this document](https://documents1.worldbank.org/en/publication/documents-reports/documentdetail/099913509172439457).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2024-09-20-pip-data-update</guid>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>PIP data update on Mar 26, 2024</title>
       <dc:creator>PIP Technical Team</dc:creator>
