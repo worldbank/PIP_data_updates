@@ -1,0 +1,20 @@
+---
+title: "PIP data update on Sep 20, 2024"
+description: |
+  This update involves several changes to the data underlying global poverty estimates. The database now includes 16 new country-years, bringing the total number of surveys to nearly 2,400. This update incorporates new methodologies for measuring global poverty and introduces new indicators of shared prosperity: the Prosperity Gap and the number of economies with high income inequality. It also incorporates two new analytical dashboards: growth incidence curves and poverty decompositions. Depending on the availability of recent survey data, global and regional poverty estimates are reported up to 2022. For the first time, PIP also includes country-level, regional, and global poverty nowcast estimates up to 2024. Further details on the changes are available in [this document](https://documents1.worldbank.org/en/publication/documents-reports/documentdetail/099913509172439457).
+author:
+  - name: PIP Technical Team
+categories:
+  - Data update
+  - Semi-annual update
+date: 2024-09-20
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
