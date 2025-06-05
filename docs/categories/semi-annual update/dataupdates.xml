@@ -7,7 +7,17 @@
     <description>This side contains the revisions of PIP data
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PIP data update on June 5, 2025</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2025-06-05-pip-data-update</link>
+      <description>The June 2025 update to the Poverty and Inequality Platform (PIP) introduces several important changes to the data underlying the global poverty estimates. The most important change is the adoption of the 2021 Purchasing Power Parities (PPPs). In addition, new data for India has been incorporated and the existing series adjusted for comparability. This document details the changes to underlying data and the methodological reasons behind them. Depending on the availability of recent survey data, global and regional poverty estimates are reported up to 2023, together with nowcasts up to 2025. The PIP database now includes 74 new country-years, bringing the total number of surveys to over 2,400, for 172 economies.. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099510306052516849).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2025-06-05-pip-data-update</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>PIP data update on Sep 20, 2024</title>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
