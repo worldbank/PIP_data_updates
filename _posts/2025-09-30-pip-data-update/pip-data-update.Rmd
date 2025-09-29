@@ -1,0 +1,20 @@
+---
+title: "PIP data update on September 30, 2025"
+description: |
+  The September 2025 update to the Poverty and Inequality Platform (PIP) involves three major changes: 1) Expanded a revised data coverage. 55 new country-years were added to the PIP database, bringing the total number of distributions to over 2,500 for 172 economies. This includes recent data for Nigeria, which significantly enhances data coverage for Sub-Saharan Africa. 2) Methodological improvements include a new approach for estimating poverty in countries without data, as well as a minor change in the data interpolation. Finally, 3) the regional classification used in PIP has been aligned with the World Bank classification as of July 2025, although users continue to be able to construct their own regional aggregates from the underlying country-level data. Global and regional poverty estimates are reported up to 2024, with nowcasts extending to 2025. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099453409262520956).
+author:
+  - name: PIP Technical Team
+categories:
+  - Data update
+  - Semi-annual update
+date: 2025-09-30
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
