@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2025-09-30-pip-data-update/",
+    "title": "PIP data update on September 30, 2025",
+    "description": "The September 2025 update to the Poverty and Inequality Platform (PIP) involves three major changes: 1) Expanded a revised data coverage. 55 new country-years were added to the PIP database, bringing the total number of distributions to over 2,500 for 172 economies. This includes recent data for Nigeria, which significantly enhances data coverage for Sub-Saharan Africa. 2) Methodological improvements include a new approach for estimating poverty in countries without data, as well as a minor change in the data interpolation. Finally, 3) the regional classification used in PIP has been aligned with the World Bank classification as of July 2025, although users continue to be able to construct their own regional aggregates from the underlying country-level data. Global and regional poverty estimates are reported up to 2024, with nowcasts extending to 2025. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099453409262520956).",
+    "author": [
+      {
+        "name": "PIP Technical Team",
+        "url": {}
+      }
+    ],
+    "date": "2025-09-30",
+    "categories": [
+      "Data update",
+      "Semi-annual update"
+    ],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2025-09-29T18:14:45-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2025-06-05-pip-data-update/",
     "title": "PIP data update on June 5, 2025",
     "description": "The June 2025 update to the Poverty and Inequality Platform (PIP) introduces several important changes to the data underlying the global poverty estimates. The most important change is the adoption of the 2021 Purchasing Power Parities (PPPs). In addition, new data for India has been incorporated and the existing series adjusted for comparability. This document details the changes to underlying data and the methodological reasons behind them. Depending on the availability of recent survey data, global and regional poverty estimates are reported up to 2023, together with nowcasts up to 2025. The PIP database now includes 74 new country-years, bringing the total number of surveys to over 2,400, for 172 economies.. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099510306052516849).",

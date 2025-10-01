@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://pip-technical-team.github.io/PIP_data_revisions/about.html</loc>
-    <lastmod>2025-06-05T14:32:12-04:00</lastmod>
+    <lastmod>2025-08-07T14:07:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://pip-technical-team.github.io/PIP_data_revisions/dataupdates.html</loc>
@@ -10,7 +10,11 @@
   </url>
   <url>
     <loc>https://pip-technical-team.github.io/PIP_data_revisions/</loc>
-    <lastmod>2025-06-05T14:32:13-04:00</lastmod>
+    <lastmod>2025-09-29T18:25:22-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pip-technical-team.github.io/PIP_data_revisions/posts/2025-09-30-pip-data-update/</loc>
+    <lastmod>2025-09-29T18:14:45-04:00</lastmod>
   </url>
   <url>
     <loc>https://pip-technical-team.github.io/PIP_data_revisions/posts/2025-06-05-pip-data-update/</loc>

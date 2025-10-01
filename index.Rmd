@@ -18,7 +18,7 @@ base_url: https://pip-technical-team.github.io/PIP_data_revisions/
 output:
   postcards::trestles
 ---
-Welcome to the PIP data updates page. This site tracks the revisions that have been made to the data in the World Bank’s [Poverty and Inequality Platform (PIP)](https://pip.worldbank.org/home). 
+Welcome to the PIP data updates page. This site tracks the revisions that have been made to the data in the World Bank’s [Poverty and Inequality Platform (PIP)](https://pip.worldbank.org/home) over time. 
 
 The [PIP Updates](dataupdates.html) option at the top menu, provides record of all the **overall changes**, updates, and corrections to the PIP data. In a typical year, there are two major updates (March/April and September/October), which bring in new survey data. These updates are documented in [What’s New](https://pip.worldbank.org/publication) documents (published in the Global Poverty Monitoring Technical Notes series). When necessary, intermediate updates are made to correct errors as soon as possible, which are also documented in this site.
 
