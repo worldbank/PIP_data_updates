@@ -7,7 +7,17 @@
     <description>This side contains the revisions of PIP data
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PIP data update on March 24, 2026</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2026-03-24-pip-data-update</link>
+      <description>The March 2026 update to the Poverty and Inequality Platform (PIP) incorporates new data, as well as revisions to the data underlying the global poverty estimates. This technical note documents these changes and explains the methodological reasons behind them. Key updates include an expansion of bin-level data derived from the Luxembourg Income Study, increasing the number of bins from 400 to 1,000 to improve precision. The PIP database has also been extended to include 28 additional country-years, bringing coverage to more than 2,500 welfare distributions across 172 economies. Finally, depending on the availability of recent household survey data, global and regional poverty estimates are reported through 2024, with model-based nowcasts now extending to 2026. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099720403202635656).</description>
+      <category>Data update</category>
+      <category>Semi-annual update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2026-03-24-pip-data-update</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>PIP data update on September 30, 2025</title>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
