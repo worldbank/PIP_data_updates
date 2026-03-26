@@ -7,7 +7,16 @@
     <description>This side contains the revisions of PIP data
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PIP data update on March 26, 2026</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>
+      <link>https://pip-technical-team.github.io/PIP_data_revisions/posts/2026-03-26-pip-data-update</link>
+      <description>The 2026 nowcast has been updated following corrections to the imputed estimates in 2026 for countries lacking survey data. This affects the regional and global aggregates in 2026. All other estimates are unaffected. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099434403202630952).</description>
+      <category>Data update</category>
+      <guid>https://pip-technical-team.github.io/PIP_data_revisions/posts/2026-03-26-pip-data-update</guid>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>PIP data update on March 24, 2026</title>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PIP Technical Team</dc:creator>

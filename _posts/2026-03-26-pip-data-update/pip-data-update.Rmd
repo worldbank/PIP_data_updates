@@ -1,0 +1,19 @@
+---
+title: "PIP data update on March 26, 2026"
+description: |
+  The 2026 nowcast has been updated following corrections to the imputed estimates in 2026 for countries lacking survey data. This affects the regional and global aggregates in 2026. All other estimates are unaffected. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099434403202630952).
+author:
+  - name: PIP Technical Team
+categories:
+  - Data update
+date: 2026-03-26
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
