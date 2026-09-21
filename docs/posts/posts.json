@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2026-09-22-pip-data-update/",
+    "title": "PIP data update on September 22, 2026",
+    "description": "The September 2026 update to the Poverty and Inequality Platform (PIP) incorporates new data, as well as revisions to the data underlying the global poverty estimates. This technical note documents these changes and explains the methodological reasons behind them. The PIP database has been extended to include four additional economy-years bringing coverage to more than 2,500 welfare distributions across 172 economies. Only one estimate from a previously published survey was revised in this round. Finally, given the availability of recent household survey data, global and regional poverty estimates are reported through 2024, with model-based nowcasts extending to 2026. The September 2026 PIP update presents the poverty and inequality data underlying the forthcoming World Bank’s Poverty, Prosperity, and Planet Report 2026. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099045009172613939).",
+    "author": [
+      {
+        "name": "PIP Technical Team",
+        "url": {}
+      }
+    ],
+    "date": "2026-09-22",
+    "categories": [
+      "Data update",
+      "Semi-annual update"
+    ],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2026-09-21T15:27:35-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2026-03-26-pip-data-update/",
     "title": "PIP data update on March 26, 2026",
     "description": "The 2026 nowcast has been updated following corrections to the imputed estimates in 2026 for countries lacking survey data. This affects the regional and global aggregates in 2026. All other estimates are unaffected. Further details on the changes are available in [this document](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099434403202630952).",
