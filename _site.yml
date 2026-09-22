@@ -2,7 +2,7 @@ name: "PIP_data_updates"
 title: "PIP Data Updates"
 description: |
   This side contains the revisions of PIP data
-base_url: https://pip-technical-team.github.io/PIP_data_revisions/
+base_url: https://worldbank.github.io/PIP_data_updates/
 output_dir: "docs"
 navbar:
   logo:

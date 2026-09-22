@@ -10,10 +10,10 @@ links:
   - label: Country Data Revisions
     url: "https://datanalytics.worldbank.org/pip_country_data_revisions/"
   - label: GitHub
-    url: "https://github.com/PIP-Technical-Team"
+    url: "https://github.com/worldbank/PIP_data_updates"
   - label: Email
     url: "mailto:pip@worldbank.org"
-base_url: https://pip-technical-team.github.io/PIP_data_revisions/
+base_url: https://worldbank.github.io/PIP_data_updates/
 # preview: "WB-PIP-E-vertical-RGB-low.png"
 output:
   postcards::trestles
